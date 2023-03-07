@@ -1,27 +1,55 @@
-# Harf
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.0.6.
+## Kurulu Olması Gerekenler
+Projeyi kendi localinizde çalıştırmak için gerekli olan kurulumları tamamlamalısınız.
 
-## Development server
+- Node.js
+- Angular cli 13.1.1 versiyonu
+- VS Code 
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
 
-## Code scaffolding
+## Letter Matching with AngularJS
+Bu proje, AngularJS kullanılarak hem angularjs syntax'i hakkında fikir sahibi olmak hemde bir angular projesinde kullanılabilecek bir kaç özelliğin projeye nasıl dahil edilebileceği hakkında bilgi sahibi olmak amacı ile hazırlandı.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Proje
+Proje genel hatları ile kullanıcı tarafından input alanına girilen harfler ile daha öncesinde oluşturulmuş metin ile uyuşan harfler sonucunda harflerin Yeşil renk, uyuşmayan harfler sonucunda da Kırmızı renk almaları durumundan oluşmaktadır. Tüm Harfler Yeşil renk olur ise yani tüm harfler uyuşmuş ise input alanının altında "Bravo!" yazısı çıkmaktadır.
 
-## Build
+### Proje Kapsamında Kullanılan  CSS Framework'ü  *BULMA*
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+Aşağıdaki kod parçasını terminale yazarak bulmayı download etmeniz gerekmektedir.
 
-## Running unit tests
+```bash
+npm install bulma
+```
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+indirilme işleminin kontrolünü "node_modules" klasörünün altında "bulma" klasörünü arayarak gerçekleştirebilirsiniz.
 
-## Running end-to-end tests
+indirilmeişlemi sonrasında projeye dahil edilmesi için
+ `src/styles.css` dosyasının içerisine aşağıdaki kod parçasını yazarak projenize dahil edebilirsiniz.
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+```bash
+@import 'bulma/css/bulma.css';
+```
 
-## Further help
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+
+
+## Bilgisayarınızda Çalıştırın
+
+İndirme işlemleri ve gerkli kurulumlardan sonrasında klasörü açtıktan sonrasında terminale 
+aşağıdaki kodu yazarak projenin local host üzerinde açılması sağlanmaktadır.
+Proje çalışması için aşağıdaki kod parçası yeterli olacaktır ;
+
+```bash
+ng serve
+```
+
+## Ekran Çıktısı
+
+
+
+https://user-images.githubusercontent.com/66949465/223355493-f3ba26c0-c157-4826-94b8-c84f0768098e.mp4
+
+
+
+
